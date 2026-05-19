@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg1" cx="20%" cy="30%">
+      <stop offset="0%" stop-color="#ffd60a" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#0d0d0d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bg2" cx="80%" cy="70%">
+      <stop offset="0%" stop-color="#e63946" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#0d0d0d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0d0d0d"/>
+  <rect width="1200" height="630" fill="url(#bg1)"/>
+  <rect width="1200" height="630" fill="url(#bg2)"/>
+
+  <!-- Top ticker bar -->
+  <rect x="0" y="0" width="1200" height="40" fill="#e63946"/>
+  <text x="600" y="27" text-anchor="middle" font-family="Bowlby One, Arial Black, sans-serif" font-size="18" fill="#0d0d0d" font-weight="900" letter-spacing="6">🍎 $ABC GANG · NO UTILITY ONLY VIBES · APPELINA SAID GM · 🍌</text>
+
+  <!-- Sticker top left -->
+  <g transform="translate(80, 100) rotate(-8)">
+    <rect x="0" y="0" width="180" height="44" fill="#e63946" stroke="#0d0d0d" stroke-width="3"/>
+    <text x="90" y="30" text-anchor="middle" font-family="Bowlby One, Arial Black, sans-serif" font-size="18" fill="#fff6d6" font-weight="900">NO ROADMAP</text>
+  </g>
+
+  <!-- Sticker top right -->
+  <g transform="translate(950, 110) rotate(6)">
+    <rect x="0" y="0" width="160" height="44" fill="#ffd60a" stroke="#0d0d0d" stroke-width="3"/>
+    <text x="80" y="30" text-anchor="middle" font-family="Bowlby One, Arial Black, sans-serif" font-size="18" fill="#0d0d0d" font-weight="900">JUST VIBES</text>
+  </g>
+
+  <!-- Main headline -->
+  <g transform="translate(600, 280)" text-anchor="middle">
+    <text x="0" y="0" font-family="Bowlby One, Arial Black, sans-serif" font-size="120" fill="#e63946" font-weight="900" transform="rotate(-2)">APPELINA</text>
+    <text x="0" y="130" font-family="Bowlby One, Arial Black, sans-serif" font-size="120" fill="#ffd60a" font-weight="900" transform="rotate(2)">BANANITO</text>
+  </g>
+
+  <!-- Tagline -->
+  <text x="600" y="500" text-anchor="middle" font-family="Space Mono, Courier, monospace" font-size="22" fill="#fbe9a0" font-weight="700">The most unhinged fruit couple on Solana.</text>
+  <text x="600" y="535" text-anchor="middle" font-family="Space Mono, Courier, monospace" font-size="22" fill="#ffd60a" font-weight="700">$ABC · abttoken.xyz</text>
+
+  <!-- Bottom sticker -->
+  <g transform="translate(80, 540) rotate(4)">
+    <rect x="0" y="0" width="180" height="44" fill="#ff4d8d" stroke="#0d0d0d" stroke-width="3"/>
+    <text x="90" y="30" text-anchor="middle" font-family="Bowlby One, Arial Black, sans-serif" font-size="18" fill="#0d0d0d" font-weight="900">100% DEGEN</text>
+  </g>
+
+  <g transform="translate(950, 540) rotate(-5)">
+    <rect x="0" y="0" width="180" height="44" fill="#ffd60a" stroke="#0d0d0d" stroke-width="3"/>
+    <text x="90" y="30" text-anchor="middle" font-family="Bowlby One, Arial Black, sans-serif" font-size="18" fill="#0d0d0d" font-weight="900">ON SOLANA</text>
+  </g>
+
+  <!-- Bottom ticker -->
+  <rect x="0" y="590" width="1200" height="40" fill="#e63946"/>
+  <text x="600" y="617" text-anchor="middle" font-family="Bowlby One, Arial Black, sans-serif" font-size="18" fill="#0d0d0d" font-weight="900" letter-spacing="6">🍌 BUY OR CRY · FRUIT SALAD SEASON · $ABC · 🍎</text>
+</svg>
