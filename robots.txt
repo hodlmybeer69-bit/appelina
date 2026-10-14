@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://appelina.xyz/sitemap.xml
+Sitemap: https://www.appelina.xyz/sitemap.xml

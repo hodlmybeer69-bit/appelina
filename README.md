@@ -1,7 +1,7 @@
 # Appelina Bananito ($ABC) — Launch Package v2
 
 Ticker: **$ABC**
-Domain: **appelina.xyz**
+Domain: **www.appelina.xyz** (canonical host; `appelina.xyz` redirects to it)
 Chain: **Solana**
 Launch: **pump.fun**
 
@@ -46,7 +46,7 @@ README.md         ← This file
 2. **Upload these files** to the repo root
 3. **Connect to Vercel**: Vercel dashboard → "Add New" → "Project" → import repo
 4. Vercel auto-detects static site. Click Deploy.
-5. **Domain**: Vercel project → Settings → Domains → Add `appelina.xyz`
+5. **Domain**: Vercel project → Settings → Domains → Add `www.appelina.xyz` as the primary domain and `appelina.xyz` redirecting to it (canonical, sitemap and JSON-LD use `https://www.appelina.xyz/`)
 
 ### Updates after launch
 ```bash
